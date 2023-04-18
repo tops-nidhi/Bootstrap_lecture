@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+</head>
+<body>
+    <h2 class="text-center">Grid managements</h2>
+    <hr class="border border-lg border-2 border-dark w-50">
+    <p>• The Bootstrap Grid System allows up to 12 columns across the page. You can use all 12 columns individually or you can groups the columns together to create wider columns</p>
+    <p>• Bootstrap Grid System is responsive and the columns are re-arranged automatically according to the screen size</p>
+
+    <h4>Grid Classes: The Bootstrap grid system has four classes that can be combined to make more flexible layouts:</h4>
+    <ul>
+        <li>xs (&lt;576px): For Portrait Mobile Phones.</li>
+        <li>sm (>=576px): For Landscapes phones.</li>
+        <li>md (>=768px): For Tablets/Phablets</li>
+        <li>Lg (>=992px): For Small-sized Desktops/Laptops</li>
+        <li>xl (>=1200px): For Larger-sized Desktops/Laptops</li>
+    </ul>
+
+
+<!-- grid is divide your division in 
+    col-sm-12  small device
+    col-md-12  medium device
+    col-lg-12  large device
+    col-xl-12  xtra large device
+-->
+
+<div class="container-fluid mt-5">
+    <div class="row">
+        <div class="col-md-4 bg-success p-2">col-md-4</div>
+        <div class="col-md-4 bg-danger p-2">col-md-4</div>
+    <div class="col-md-4 bg-info p-2">col-md-4</div>
+    </div>
+    <div class="row">
+
+        <div class="col-md-4 bg-primary p-2">col-md-4</div>
+        
+        <div class="col-md-4 bg-info p-2">col-md-4</div>
+        <div class="col-md-4 bg-primary p-2">col-md-4</div>
+    </div>
+    <div class="row">
+        <div class="col-md-9 bg-info p-2">col-md-9</div>
+        <div class="col-md-3 bg-primary p-col-md-42">col-md-3</div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8 bg-dark p-2">col-md-8</div>
+        <div class="col-md-4 bg-info p-2">col-md-4</div>
+    </div>
+
+
+    <div class="row">
+
+        <div class="col-md-3 bg-dark p-2">col-md-3</div>
+        <div class="col-md-3 bg-info p-2">col-md-3</div>
+        <div class="col-md-3 bg-dark p-2">col-md-3</div>
+        <div class="col-md-3 bg-info p-2">col-md-3</div>
+    </div>
+
+
+</div>
+</div>
+
+
+
+</body>
+</html>
