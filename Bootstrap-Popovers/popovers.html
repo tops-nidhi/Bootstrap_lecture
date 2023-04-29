@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popovers</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!-- 
+        ->Bootstrap 5 Popovers are a feature that allows you to add small overlays of content to a page. They are typically used to provide additional information or to display a menu when a user hovers over or clicks on a specific element on the page
+     -->
+     <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, neque.">
+        Popover on top
+      </button>
+      
+      <button type="button" class="btn btn-info" data-container="body" data-toggle="popover" data-placement="right" data-content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, neque.">
+        Popover on right
+      </button>
+      
+      <button type="button" class="btn btn-white text-info" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, neque.">
+        Popover on bottom
+      </button>
+      
+      <button type="button" class="btn btn-warning" data-container="body" data-toggle="popover" data-placement="left" data-content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, neque.">
+        Popover on left
+      </button> 
+      <script>
+        $(document).ready(function(){
+          $('[data-toggle="popover"]').popover();   
+        });
+        </script>
+</body>
+</html>
